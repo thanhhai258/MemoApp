@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".AddMemo">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tiêu Đề"
+    android:layout_gravity="center"
+    android:textColor="@color/colorAccent"
+    android:textSize="30dp"></TextView>
+    <EditText
+        android:id="@+id/memo_tilte_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nội Dung"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"></TextView>
+    <EditText
+        android:id="@+id/memo_content_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memo_save_btn"
+        android:layout_gravity="center"
+        android:text="SAVE"></Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
