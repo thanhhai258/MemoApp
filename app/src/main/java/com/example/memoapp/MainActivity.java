@@ -35,11 +35,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public ListView getmListViewMemo() {
         return mListViewMemo;
     }
-
-    public DBManager getDbManager() {
-        return dbManager;
-    }
-
     public List<MemoItem> getmMemoItems() {
         return mMemoItems;
     }
