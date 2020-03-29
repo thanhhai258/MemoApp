@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public DBManager dbManager = new DBManager(this);
 
 
-//hahahahehehehahahahahahaha
+//12345
     public List<MemoItem> getmMemoItems() {
         return mMemoItems;
     }
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
-
+//67899
     private void anhXa() {
         mOnOff = findViewById(R.id.tatmo);
         mBtAdd = findViewById(R.id.addMemo);
