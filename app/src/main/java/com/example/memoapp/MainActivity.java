@@ -32,9 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public DBManager dbManager = new DBManager(this);
 
 
-    public ListView getmListViewMemo() {
-        return mListViewMemo;
-    }
+//hahahahehehe
     public List<MemoItem> getmMemoItems() {
         return mMemoItems;
     }
