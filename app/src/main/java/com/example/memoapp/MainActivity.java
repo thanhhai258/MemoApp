@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public DBManager dbManager = new DBManager(this);
 
 
-//12345
+//123
+    //cherrypick
     public List<MemoItem> getmMemoItems() {
         return mMemoItems;
     }
