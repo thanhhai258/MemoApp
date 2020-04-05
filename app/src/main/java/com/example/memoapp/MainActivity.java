@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     mMemoItems.addAll(dbManager.getAllMemo());
                     customAdapter.notifyDataSetChanged();
 
+
                 }
                 return false;
             }
