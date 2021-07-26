@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
-
+//67899
     private void anhXa() {
         mOnOff = findViewById(R.id.tatmo);
         mBtAdd = findViewById(R.id.addMemo);
